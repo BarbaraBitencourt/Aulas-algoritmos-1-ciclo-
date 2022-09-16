@@ -2,9 +2,8 @@
 Aula 16/09
 # -*- coding: utf-8 -*-
 """
-Created on Fri Sep 16 11:46:50 2022
 
-@author: lab54
+@author: Bárbara Bitencourt e Leonardo de Jesus
 """
 """
 #TABELA - CÓDIGO PREÇO
