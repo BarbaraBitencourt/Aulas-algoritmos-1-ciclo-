@@ -1,0 +1,48 @@
+22/09/2022
+"""
+
+identificação = input("Escreve seu nome: ")
+endereço = input("Escreve seu endereço: ")
+cpf = input("cpf:")
+renda_anual = float(input("Renda anual: "))
+imposto_pago = float(input("Imposto pago: "))
+imposto = (renda_anual*0.15)- imposto_pago
+print("Identificação: ", identificação)
+print("Endereço: ", endereço)
+print("cpf: ", cpf)
+print("Renda: ", str(renda_anual))
+print("Imposto pago: ", str(imposto_pago))
+if renda_anual <= 44.000:
+    print("Isento")
+else:
+    print("Imposto devido: ", str (imposto))
+"""
+"""
+import math
+a = input("Escreva o valor de a: ")
+b = input("Escreva valor de b: ")
+c = input("Escreva o valor de c: ")
+a = float(a)
+b = float(b)
+c = float (c)
+delta = (b*b-4*a*c)
+if delta < 0:
+    print("erro")
+else:
+    x1 = (-b + math.sqrt(delta)) / (2*a)
+    print (x1)
+    x2 = (-b - math.sqrt(delta)) / (2*a)
+    print (x2)
+    
+"""
+
+n1 = int(input("digite um número: "))
+n2 = int(input("digite um número: "))
+n3 = int(input("digite um número: "))
+
+if n1 > n2 and n1 > n3:
+    print(n1)
+if n2 > n1 and n2 > n3:
+    print(n2)
+if n3 > n2 and n3 > n1:
+    print(n3)
